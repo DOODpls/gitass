@@ -1,4 +1,20 @@
+.mainhandler{
+  margin: 8vmin;
+  padding: 10vmin;
+  box-shadow: 5px 5px 30px;
+  width: 80vw;
+}
+
 .navhandler{
   display: grid;
-  grid-template-rows: 1fr, 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  list-style-type: none;
+}
+h1{
+  padding-left: 4vmin;
 }
