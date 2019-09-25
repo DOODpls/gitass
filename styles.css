@@ -1,20 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap');
+
+body{
+  background-color: rgb(255, 223, 233);
+}
+
+#dot{
+  height: .3em;
+  width: .3em;
+}
 .mainhandler{
-  margin: 8vmin;
-  padding: 10vmin;
-  box-shadow: 5px 5px 30px;
-  width: 80vw;
+  margin: 6vmin auto;
+  padding-top: 4vmin;
+  box-shadow: 0px 1vmin 5vmin;
+  width: 90vw;
+  border-radius: 5%;
+  background-color: white;
 }
 
 .navhandler{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 0 5vmin;
 }
 ul{
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   text-decoration: none;
   list-style-type: none;
+  color: #828282;
+  font-size: 1.5vmin;
 }
 h1{
   padding-left: 4vmin;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 4vmin;
 }
