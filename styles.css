@@ -17,11 +17,11 @@ body{
   width: .3em;
 }
 .mainhandler{
-  margin: 5vmin auto;
-  padding-top: 4vmin;
+  margin: 50px auto;
+  padding-top: 50px;
   box-shadow: 0px 1vmin 5vmin;
-  width: 60vw;
-  height: 1070px;
+  width: 60%;
+  height: 1030px;
   border-radius: 5%;
   background-color: white;
   position: relative;
@@ -31,7 +31,7 @@ body{
 .navhandler{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0 5vmin;
+  margin: 0 80px;
 }
 ul{
   z-index: 1;
@@ -58,8 +58,8 @@ ul{
 }
 
 .left{
-  margin: 9vmin;
-  width: 30vmin;
+  margin: 80px;
+  width: 300px;
   z-index: 1;
 }
 #exp{
@@ -74,18 +74,18 @@ ul{
   z-index: 1;
 }
 p{
-  padding-top: 2vmin;
-  width: 22vmin;
+  padding-top: 15px;
+  width: 250px;
   font-size: 20px;
   z-index: 1;
 }
 .button{
-  padding-top: 5vmin;
+  padding-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 20vmin;
-  height: 3vmin;
-  grid-gap: 2vmin;
+  height: 40px;
+  grid-gap: 10px;
   z-index: 1;
 }
 #str{
@@ -140,7 +140,7 @@ img{
   position: absolute;
   width: 300px;
   top: 50px;
-  right: 2vw;
+  right: 30px;
 }
 
 #border{
@@ -149,7 +149,7 @@ img{
   margin: auto;
 }
 #sign{
-  padding-left: 14vmin;
+  padding-left: 115px;
   display: flex;
   flex-direction: column;
 }
