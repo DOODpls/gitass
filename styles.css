@@ -21,7 +21,7 @@ body{
   padding-top: 50px;
   box-shadow: 0px 1vmin 5vmin;
   width: 60%;
-  height: 1030px;
+  height: 1160px;
   border-radius: 5%;
   background-color: white;
   position: relative;
@@ -40,7 +40,7 @@ ul{
   align-items: center;
   text-decoration: none;
   list-style-type: none;
-  color: #828282;
+  color: #cfcfcf;
   font-size: 20px;
 }
 #trac{
@@ -75,7 +75,7 @@ ul{
 }
 p{
   padding-top: 15px;
-  width: 250px;
+  width: 280px;
   font-size: 20px;
   z-index: 1;
 }
@@ -83,7 +83,7 @@ p{
   padding-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 20vmin;
+  width: 150px;
   height: 40px;
   grid-gap: 10px;
   z-index: 1;
@@ -149,7 +149,7 @@ img{
   margin: auto;
 }
 #sign{
-  padding-left: 115px;
+  padding-left: 130px;
   display: flex;
   flex-direction: column;
 }
@@ -157,8 +157,8 @@ img{
 }
 
 #name, #email{
-  width: 200px;
-  height: 30px;
+  width: 260px;
+  height: 50px;
   border-radius: 10%;
   border: none;
   background-color: #E2DDEF;    
